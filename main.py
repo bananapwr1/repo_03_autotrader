@@ -8,6 +8,7 @@ import logging
 import asyncio
 import base64
 import json
+import re
 import websockets
 import time
 from typing import Dict, Any, List, Optional, Callable
